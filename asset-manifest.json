@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/football/static/css/main.76c15505.chunk.css",
-    "main.js": "/football/static/js/main.c52de765.chunk.js",
-    "main.js.map": "/football/static/js/main.c52de765.chunk.js.map",
+    "main.js": "/football/static/js/main.5a47dac4.chunk.js",
+    "main.js.map": "/football/static/js/main.5a47dac4.chunk.js.map",
     "runtime-main.js": "/football/static/js/runtime-main.171c9ef8.js",
     "runtime-main.js.map": "/football/static/js/runtime-main.171c9ef8.js.map",
     "static/js/2.390753bb.chunk.js": "/football/static/js/2.390753bb.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.171c9ef8.js",
     "static/js/2.390753bb.chunk.js",
     "static/css/main.76c15505.chunk.css",
-    "static/js/main.c52de765.chunk.js"
+    "static/js/main.5a47dac4.chunk.js"
   ]
 }
