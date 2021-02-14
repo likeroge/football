@@ -14,8 +14,8 @@ function App() {
 
       <div className="bg-gray-800 h-full text-white">
         <Switch>
-          <Route path="/" render={() => <HomePage />} />
-          <Route path="/football/leagues" render={() => <LeaguesPage />} />
+          <Route path="/" exact render={() => <HomePage />} />
+          <Route path="/football/leagues" exact render={() => <LeaguesPage />} />
           <Route path="/football/todaysmatches" render={() => <TodaysMatchesPage />} />
 
           <Route path="/football/teams/:teamId" render={() => <TeamInfoPage />} />
