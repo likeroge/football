@@ -14,19 +14,19 @@ function App() {
 
       <div className="bg-gray-800 h-full text-white">
         <Switch>
-          <Route path="/" exact render={() => <HomePage />} />
-          <Route path="/leagues" exact render={() => <LeaguesPage />} />
-          <Route path="/todaysmatches" render={() => <TodaysMatchesPage />} />
+          <Route path="/football" exact render={() => <HomePage />} />
+          <Route path="/football/leagues" exact render={() => <LeaguesPage />} />
+          <Route path="/football/todaysmatches" render={() => <TodaysMatchesPage />} />
 
-          <Route path="/teams/:teamId" render={() => <TeamInfoPage />} />
+          <Route path="/football/teams/:teamId" render={() => <TeamInfoPage />} />
 
           <Route
-            path="/leagues/:leagueId"
+            path="/football/leagues/:leagueId"
             exact
             render={() => <MatchesListPage />}
           />
           <Route
-            path="/leagues/:leagueId/teams/"
+            path="/football/leagues/:leagueId/teams/"
             render={() => <LeagueTeamsPage />}
           />
         </Switch>
