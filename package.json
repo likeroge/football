@@ -1,7 +1,7 @@
 {
   "name": "soccer_stat",
   "version": "0.1.0",
-  "homepage": "https://likeroge.github.io/football/",
+  "homepage": "https://likeroge.github.io/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.0",

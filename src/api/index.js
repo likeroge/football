@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const token = process.env.REACT_APP_API_KEY
-const apiUrl = 'http://api.football-data.org/v2/'
+const apiUrl = 'https://api.football-data.org/v2/'
 const headers = {'X-Auth-Token':token}
 
 
