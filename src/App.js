@@ -16,16 +16,17 @@ function App() {
         <Switch>
           <Route path="/" exact render={() => <HomePage />} />
           <Route path="/leagues" exact render={() => <LeaguesPage />} />
-          <Route path="/todaysmatches" render={() => <TodaysMatchesPage />} />
+          <Route path="/todaysmatches" exact render={() => <TodaysMatchesPage />} />
 
-          <Route path="/teams/:teamId" render={() => <TeamInfoPage />} />
+          <Route path="/teams/:teamId" exact render={() => <TeamInfoPage />} />
 
           <Route
             path="/leagues/:leagueId"
-            
+            exact
             render={() => <MatchesListPage />}
           />
           <Route
+          exact
             path="/leagues/:leagueId/teams/"
             render={() => <LeagueTeamsPage />}
           />

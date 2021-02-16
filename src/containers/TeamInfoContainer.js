@@ -27,6 +27,7 @@ export const TeamInfoContainer = () => {
   useEffect(() => {
     (async () => {
       const teamInfo = await fetchData(`teams/${teamId}`);
+      console.log(teamInfo)
       setTeamInfo(teamInfo);
       setSquad(teamInfo?.squad);
       const fetchedCoach = await teamInfo.squad?.find(
@@ -35,7 +36,7 @@ export const TeamInfoContainer = () => {
       await setCoach(fetchedCoach);
       // setLeagueName(teamInfo.name)
     })();
-  }, []);
+  }, [teamId]);
 
   //to fetch matches for selected team
   //to submit form
